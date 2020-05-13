@@ -1,3 +1,4 @@
+<!-- 企业介绍> -->
 <template>
   <div class="n2">
     <h1 class="n2-title">{{title}}</h1>
@@ -32,34 +33,34 @@ export default {
   data() {
     return {
       currentIndex: 0,
-      title: "非响应式组件N2",
-      info: "非响应式组件N2,非响应式组件N2,非响应式组件N2",
+      title: "企业介绍",
+      // info: "非响应式组件N2,非响应式组件N2,非响应式组件N2",
       content: [
         {
-          title: "内容标题1",
+          title: "企业简介",
           imgUrl: require("../assets/images/n2-1.png"),
-          cpation:[]
+          // cpation:[]
         },
+        // {
+        //   title: "发展历程",
+        //   imgUrl: require("../assets/images/n2-2.png")
+        // },
         {
-          title: "内容标题2",
-          imgUrl: require("../assets/images/n2-2.png")
-        },
-        {
-          title: "内容标题3",
+          title: "企业文化",
           imgUrl: require("../assets/images/n2-3.png")
         },
         {
-          title: "内容标题4",
+          title: "员工风采",
           imgUrl: require("../assets/images/n2-4.png")
         },
-        {
-          title: "内容标题5",
-          imgUrl: require("../assets/images/n2-5.png")
-        },
-        {
-          title: "内容标题6",
-          imgUrl: require("../assets/images/n2-6.png")
-        }
+        // {
+        //   title: "内容标题5",
+        //   imgUrl: require("../assets/images/n2-5.png")
+        // },
+        // {
+        //   title: "内容标题6",
+        //   imgUrl: require("../assets/images/n2-6.png")
+        // }
       ]
     };
   },

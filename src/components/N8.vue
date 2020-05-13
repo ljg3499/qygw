@@ -1,8 +1,8 @@
 <template>
   <div class="n6">
     <h1 class="n6-title">{{title}}</h1>
-    <p class="n6-info">{{info}}</p>
-    <div class="n6-content">
+    <!-- <p class="n6-info">{{info}}</p> -->
+    <!-- <div class="n6-content">
       <ul>
         <li v-for="(item,index) of content" :key="index">
           <div
@@ -30,7 +30,7 @@
           </div>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       currentIndex: 0,
-      title: "联系我们",
+      title: "权威链接",
       // info: "非响应式组件N6,非响应式组件N6,非响应式组件N6",
       content: [
         {
@@ -90,7 +90,7 @@ export default {
   background-size: cover;
   position: relative;
   background: linear-gradient(-1deg, #3c4255 0, #2a2f40 98%);
-  height: 660px;
+  height: 300px;
   color: #fff;
 }
 h1 {

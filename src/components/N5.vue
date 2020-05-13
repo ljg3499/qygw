@@ -21,8 +21,8 @@ export default {
     return {
       currentEnter: null,
       currentLeave: null,
-      title: "非响应式组件n5",
-      info: "非响应式组件n5,非响应式组件n5,非响应式组件n5",
+      title: "发展历程",
+      // info: "非响应式组件n5,非响应式组件n5,非响应式组件n5",
       content: [
         {
           imgUrl: require("../assets/images/n5-1.png"),

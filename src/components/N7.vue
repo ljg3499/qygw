@@ -1,4 +1,3 @@
-<!-- 行业新闻 -->
 <template>
   <div class="n4">
     <h1 class="n4-title">{{title}}</h1>
@@ -7,7 +6,7 @@
       <!-- slides -->
       <swiper-slide class="swiper-item" v-for="(item,index) of content" :key="index">
         <div>
-          <p class="n4-date">2019</p>
+          <!-- <p class="n4-date">2019</p> -->
           <p class="n4-caption">{{item.caption}}</p>
           <div class="n4-view">
             <a class="n4-icon" href>VIEW</a>
@@ -50,7 +49,7 @@ export default {
       },
       currentEnter: null,
       currentLeave: null,
-      title: "行业新闻",
+      title: "企业招聘",
       // info: "非响应式组件n4,非响应式组件n4,非响应式组件n4",
       content: [
         {

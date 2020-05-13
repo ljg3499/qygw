@@ -1,3 +1,4 @@
+<!-- 产品介绍 -->
 <template>
   <div class="n3">
     <h1 class="n3-title">{{title}}</h1>
@@ -24,8 +25,8 @@ export default {
     return {
       currentEnter: null,
       currentLeave: null,
-      title: "非响应式组件n3",
-      info: "非响应式组件n3,非响应式组件n3,非响应式组件n3",
+      title: "产品介绍",
+      // info: "非响应式组件n3,非响应式组件n3,非响应式组件n3",
       content: [
         {
           imgUrl: require("../assets/images/n3-1.png"),

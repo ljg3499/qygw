@@ -1,6 +1,6 @@
 <template>
   <div class="n1">
-    <h1 class="n1-title">{{title}}</h1>
+    <!-- <h1 class="n1-title">{{title}}</h1>
     <p class="n1-info">{{info}}</p>
     <div class="n1-content">
       <ul>
@@ -15,87 +15,87 @@
           <p class="n1-bg-caption">{{item.caption}}</p>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 export default {
   name: "n1",
-  data() {
-    return {
-      currentEnter: null,
-      currentLeave: null,
-      title: "非响应式组件N1",
-      info: "非响应式组件N1,非响应式组件N1,非响应式组件N1",
-      content: [
-        {
-          imgUrl: require("../assets/images/n1-1.png"),
-          caption: "大数据"
-        },
-        {
-          imgUrl: require("../assets/images/n1-2.png"),
-          caption: "云计算"
-        },
-        {
-          imgUrl: require("../assets/images/n1-3.png"),
-          caption: "人工智能"
-        },
-        {
-          imgUrl: require("../assets/images/n1-4.png"),
-          caption: "数据加工"
-        },
-        {
-          imgUrl: require("../assets/images/n1-5.png"),
-          caption: "人工智能"
-        },
-        {
-          imgUrl: require("../assets/images/n1-6.png"),
-          caption: "云计算"
-        },
-        {
-          imgUrl: require("../assets/images/n1-7.png"),
-          caption: "人工智能"
-        },
-        {
-          imgUrl: require("../assets/images/n1-8.png"),
-          caption: "云计算"
-        },
-        {
-          imgUrl: require("../assets/images/n1-9.png"),
-          caption: "人工智能"
-        },
-        {
-          imgUrl: require("../assets/images/n1-10.png"),
-          caption: "数据加工"
-        },
-        {
-          imgUrl: require("../assets/images/n1-11.png"),
-          caption: "人工智能"
-        },
-        {
-          imgUrl: require("../assets/images/n1-12.png"),
-          caption: "云计算"
-        }
-      ]
-    };
-  },
-  methods: {
-    imgMoveStart(index) {
-      this.currentEnter = index;
-      this.currentLeave = null;
-    },
-    imgMoveEnd(index) {
-      this.currentLeave = index;
-      this.currentEnter = null;
-    }
-  },
+  // data() {
+  //   return {
+  //     currentEnter: null,
+  //     currentLeave: null,
+  //     title: "企业介绍",
+  //     info: "非响应式组件N1,非响应式组件N1,非响应式组件N1",
+  //     content: [
+  //       {
+  //         imgUrl: require("../assets/images/n1-1.png"),
+  //         caption: "大数据"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-2.png"),
+  //         caption: "云计算"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-3.png"),
+  //         caption: "人工智能"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-4.png"),
+  //         caption: "数据加工"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-5.png"),
+  //         caption: "人工智能"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-6.png"),
+  //         caption: "云计算"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-7.png"),
+  //         caption: "人工智能"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-8.png"),
+  //         caption: "云计算"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-9.png"),
+  //         caption: "人工智能"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-10.png"),
+  //         caption: "数据加工"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-11.png"),
+  //         caption: "人工智能"
+  //       },
+  //       {
+  //         imgUrl: require("../assets/images/n1-12.png"),
+  //         caption: "云计算"
+  //       }
+  //     ]
+  //   };
+  // },
+  // methods: {
+  //   imgMoveStart(index) {
+  //     this.currentEnter = index;
+  //     this.currentLeave = null;
+  //   },
+  //   imgMoveEnd(index) {
+  //     this.currentLeave = index;
+  //     this.currentEnter = null;
+  //   }
+  // },
   
 };
 </script>
 
 <style scoped>
-.n1 {
+/* .n1 {
   text-align: center;
   margin-top: 100px;
 }
@@ -141,11 +141,11 @@ h1::after {
 }
 .n1-bg-leave {
   animation: leave 400ms steps(25) both;
-}
+} */
 /* .n1-content {
   overflow:hidden;
 } */
-.n1-content::after {
+/* .n1-content::after {
   content: "";
   clear: both;
   display: block;
@@ -191,7 +191,7 @@ h1::after {
   100% {
     background-position: 0 140px;
   }
-}
+} */
 </style>
 
 

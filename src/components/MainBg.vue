@@ -1,7 +1,7 @@
 <template>
 <div class="mainbg">
   <div class="card">
-      <div class="card-back">
+      <!-- <div class="card-back">
           <div class="line-numbers">
               <div>1</div>
               <div>2</div>
@@ -56,10 +56,9 @@
             </div>
             <span>});</span>
           </code>
-        </div>
+        </div> -->
   </div>
 </div>
- 
 </template>
 
 <style scoped>
